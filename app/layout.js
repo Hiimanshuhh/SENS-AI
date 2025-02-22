@@ -12,7 +12,7 @@ export const metadata = {
   description: "",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }) { 
   return (
     <ClerkProvider appearance={{
       baseTheme:dark,
